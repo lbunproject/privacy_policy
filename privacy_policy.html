@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, user-scalable=no"
+  />
+  <title>Privacy Policy — WESO Miner</title>
+
+  <!-- Optional: Google Fonts (remove if not needed) -->
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap"
+  />
+
+  <!-- Optional: Google Analytics (remove if not needed) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3ZPHL7L3Y9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag("js", new Date());
+    gtag("config", "G-3ZPHL7L3Y9");
+  </script>
+
+  <style>
+    :root {
+      --bg: #0f172a;
+      --panel: #111827;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --accent: #60a5fa;
+      --border: #1f2937;
+      --link: #93c5fd;
+      --maxw: 900px;
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f8fafc;
+        --panel: #ffffff;
+        --text: #0f172a;
+        --muted: #475569;
+        --accent: #1d4ed8;
+        --border: #e5e7eb;
+        --link: #1d4ed8;
+      }
+    }
+
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Open Sans", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(180deg, rgba(96,165,250,.12), transparent);
+      border-bottom: 1px solid var(--border);
+      padding: 48px 16px 24px;
+    }
+    header .wrap {
+      max-width: var(--maxw);
+      margin: 0 auto;
+    }
+    h1 {
+      font-family: "Poppins", sans-serif;
+      font-size: clamp(28px, 4vw, 40px);
+      line-height: 1.15;
+      margin: 0 0 8px;
+      letter-spacing: -0.02em;
+    }
+    .subhead {
+      color: var(--muted);
+      margin: 0;
+    }
+
+    main {
+      padding: 24px 16px 64px;
+    }
+    .card {
+      max-width: var(--maxw);
+      margin: 0 auto 16px;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+    }
+    h2 {
+      font-family: "Poppins", sans-serif;
+      font-size: 22px;
+      margin: 0 0 8px;
+    }
+    h3 {
+      font-size: 18px;
+      margin: 16px 0 8px;
+    }
+    p { margin: 8px 0 12px; }
+    ul { margin: 8px 0 12px 20px; }
+    li { margin: 6px 0; }
+
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .muted { color: var(--muted); }
+    .badge {
+      display: inline-block;
+      font-size: 12px;
+      color: var(--accent);
+      background: rgba(96,165,250,.12);
+      border: 1px solid rgba(96,165,250,.35);
+      border-radius: 999px;
+      padding: 4px 10px;
+      margin-left: 8px;
+      vertical-align: middle;
+    }
+    .footer {
+      max-width: var(--maxw);
+      margin: 24px auto 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>Privacy Policy <span class="badge">WESO Miner</span></h1>
+      <p class="subhead">How we collect, use, and share information — and the choices you have.</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="card">
+      <p><strong>Last updated:</strong> August 20, 2025</p>
+      <p>
+        This Privacy Policy governs how WESO Miner (the “App”) collects, uses, and shares information.
+        It also explains the choices you have. By using the App, you agree to the practices described here.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Summary (What’s new)</h2>
+      <ul>
+        <li>We now offer online features (leaderboard &amp; cloud miner).</li>
+        <li>These features send limited, consent-based data to our server: <strong>display name</strong>, <strong>wallet address</strong>, and <strong>token pop counts</strong> (used to compute mining power).</li>
+        <li>You can <strong>decline or revoke consent</strong> at any time in <em>Settings → Data &amp; Privacy</em>; if you do, online features are disabled.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Data We Collect</h2>
+
+      <h3>1) Data you provide (only if you consent)</h3>
+      <ul>
+        <li><strong>Display Name</strong> (for the public leaderboard). You can choose any nickname — please avoid using your real name.</li>
+        <li><strong>Wallet Address</strong> (to attribute rewards/payouts and show your standing).</li>
+      </ul>
+
+      <h3>2) Gameplay activity we generate (only if you consent)</h3>
+      <ul>
+        <li><strong>Token pops / tap activity</strong> (aggregated counts used to derive your mining power).</li>
+        <li><strong>Leaderboard stats</strong> derived from gameplay (e.g., blocks won, rewards earned/pending).</li>
+      </ul>
+
+      <h3>3) Technical data collected automatically when online features are used</h3>
+      <p>
+        When the App connects to our server (e.g., via WebSocket), standard server logs may include:
+        <strong>IP address</strong>, <strong>timestamps</strong>, <strong>App version</strong>, and
+        <strong>error/diagnostic events</strong>. This is typical for operating, securing, and troubleshooting online services.
+        We do <strong>not</strong> collect precise device identifiers for advertising.
+      </p>
+
+      <p class="muted">
+        If you do <strong>not</strong> consent, the App does not connect to our servers for gameplay data, and the items above are not transmitted.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>How We Use Your Data</h2>
+      <ul>
+        <li>Enable online gameplay features: <strong>public leaderboard</strong> and <strong>cloud miner</strong> matching your mining power.</li>
+        <li>Attribute rewards to your <strong>wallet address</strong>.</li>
+        <li>Operate, secure, and improve the service (e.g., detect abuse, debug issues, ensure availability).</li>
+      </ul>
+      <p>We do <strong>not</strong> sell your data. We do <strong>not</strong> use it for targeted advertising.</p>
+    </section>
+
+    <section class="card">
+      <h2>Legal Basis</h2>
+      <p><strong>Consent.</strong> We process leaderboard and cloud-miner data only if you grant consent on first launch (or later in Settings). You may withdraw consent at any time; online features will be disabled immediately.</p>
+    </section>
+
+    <section class="card">
+      <h2>Your Choices &amp; Controls</h2>
+      <ul>
+        <li><strong>Grant/withdraw consent:</strong> Settings → <em>Data &amp; Privacy</em>.</li>
+        <li><strong>Change display name:</strong> Settings → <em>Data &amp; Privacy</em>.</li>
+        <li><strong>Disable online features:</strong> Turn off consent; the App remains usable without online features.</li>
+        <li><strong>Data access/deletion:</strong> Email <a href="mailto:lbunproject@gmail.com">lbunproject@gmail.com</a> from the address associated with your wallet or include your wallet address and display name so we can locate your records.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Data Sharing</h2>
+      <p>We share data only as needed to operate the service:</p>
+      <ul>
+        <li><strong>Service providers / infrastructure</strong> (e.g., hosting, DDoS protection, logging). These processors act on our instructions and use safeguards to protect your data.</li>
+        <li><strong>Legal compliance &amp; safety</strong> if required by applicable law or to protect our rights, users, or the public.</li>
+      </ul>
+      <p>We do <strong>not</strong> share data with advertisers.</p>
+    </section>
+
+    <section class="card">
+      <h2>Data Retention</h2>
+      <ul>
+        <li><strong>Leaderboard / rewards records</strong>: kept as long as necessary to provide the feature or until you request deletion.</li>
+        <li><strong>Server logs</strong>: retained for a limited period for security and operational integrity, then deleted or anonymized.</li>
+      </ul>
+      <p>If you revoke consent, we stop further collection for online features going forward.</p>
+    </section>
+
+    <section class="card">
+      <h2>Security</h2>
+      <p>We use technical and organizational measures (including transport encryption) to protect data in transit and at rest. No method of transmission or storage is 100% secure, but we strive to use industry-accepted safeguards.</p>
+    </section>
+
+    <section class="card">
+      <h2>Children’s Privacy</h2>
+      <p>The App is <strong>not directed to children under 13</strong>. We do not knowingly collect personal information from children under 13. If you believe a child has provided us personal information, contact us so we can delete it.</p>
+    </section>
+
+    <section class="card">
+      <h2>Third-Party Platform Policies</h2>
+      <p>
+        If you install the App via a platform (e.g., Google Play), that platform may collect <strong>aggregated, anonymous</strong> crash or performance data under its own privacy policy. Such platform-level collection is separate from our processing.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. We will post updates in the App or on our website. Changes take effect when posted.</p>
+    </section>
+
+    <section class="card">
+      <h2>Contact Us</h2>
+      <p>
+        Questions or requests?<br />
+        <strong>Email:</strong> <a href="mailto:lbunproject@gmail.com">lbunproject@gmail.com</a><br />
+        <strong>Website:</strong> <a href="https://www.wesominer.io/" target="_blank" rel="noopener">www.wesominer.io</a>
+      </p>
+    </section>
+
+    <div class="footer">
+      © <span id="year"></span> WESO Miner. All rights reserved.
+    </div>
+  </main>
+
+  <script>
+    // Set current year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
